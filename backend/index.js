@@ -19,7 +19,7 @@ const uri = process.env.MONGO_URI;
 
 // ✅ Replace these with your actual frontend deployment URLs
 const allowedOrigins = [
-"http://localhost:3000", 
+"https://ai-taskflow.vercel.app", 
 ];
 
 // Middleware
