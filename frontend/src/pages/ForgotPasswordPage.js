@@ -67,7 +67,7 @@ const ForgotPasswordPage = () => {
       console.log("Sending password reset email to regular user"); // Debug log
       const auth = getAuth();
       await sendPasswordResetEmail(auth, email, {
-        url: `http://localhost:3000/login`,
+        url: `https://ai-taskflow.vercel.app/login`,
         handleCodeInApp: true,
       });
 
